@@ -1,0 +1,579 @@
+/* Epilogue */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Roboto:wght@500&display=swap');
+/* Epilogue */
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/* Roboto */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 90%;
+    max-width: 1200px;
+    margin: 2% auto;
+}
+
+header img {
+    max-width: 200px;
+    margin: 0 auto; 
+}
+
+#user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #01b119;
+}
+
+.carrinho {
+    display: flex;
+    align-items: center;
+}
+
+.carrinho img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+nav {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.2rem;
+}
+
+nav a {
+    color: #171A1F;
+}
+
+nav a:hover {
+    color: rgb(30, 140, 20);
+}
+/* BANNER */
+
+
+.banner {
+    background-image: url("https://stampagramas.com.br/wp-content/uploads/2021/02/2021-02-12-tamanhos-oficiais-de-campo-society.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-attachment: fixed;
+    background-size: cover; /* Nova linha */
+    top: 0; /* Nova linha */
+}
+
+.banner button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 178px;
+    height: 52px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #065133;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.banner img{
+    width: 500px;
+    height: 100%;
+}
+
+.banner section{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    color: #171A1F;
+    font-family: 'Roboto';
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+
+/* FIM DO BANNER */
+h1{
+    margin-top: 100px;
+    color: #242730;
+    font-family: 'roboto';
+    font-size: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* NOSSOS PRODUTOS */
+.nossosprod {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nossosprod .butoes {
+    display: flex;
+    margin-top: 5vw; 
+    gap: 5vw; 
+}
+
+.butoes button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    cursor: pointer;
+    height: 5vw; 
+    width: 15vw; 
+    border-style: none;
+    border-radius: 4px;
+    color: #065133;
+    font-size: 1.5vw; 
+}
+
+.branco button {
+    background-color: #065133;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    height: 5vw; 
+    width: 15vw; 
+    border-style: none;
+    border-radius: 4px;
+    font-size: 1.5vw;
+}
+
+.nossosprod section {
+    margin-top: 5vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 100%; 
+}
+
+.produtos {
+    position: relative;
+    width: 60%; 
+    row-gap: 3vw; 
+    padding: 5vw; 
+    display: grid;
+    grid-template-rows: auto auto auto auto; 
+}
+
+.produtos .camisas {
+    width: 100%;
+    height: auto;
+    max-height: 40vw; 
+    cursor: pointer;
+}
+
+.camisas:hover {
+    opacity: 0.8; 
+}
+
+.produtos h1,
+.produtos h3,
+.produtos h5 {
+    font-size: 2vw; 
+}
+
+.produtos .kkkk {
+    position: absolute;
+    bottom: 5vw; 
+    left: 90%; /* Ajustado para estar mais próximo da borda direita */
+    transform: translateX(-50%); /* Centralizar horizontalmente */
+    cursor: pointer;
+}
+
+
+/* FIM DOS NOSSOS PRODUTOS */
+.nossahistoria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #adcbbb;
+    padding: 5vw; 
+    margin-top: 5vw; 
+    border-radius: 10px;
+}
+
+.nossahistoria h1 {
+    color: #031e14;
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: 1%;
+}
+
+.nossahistoria .historia p {
+    width: 70%; 
+    font-size: 2vw; 
+    margin-top: 2vw; 
+    margin-left: 4vw; 
+    margin-right: 4vw; 
+    text-align: justify;
+    font-family: 'Epilogue', sans-serif;
+    color: #043f28;
+}
+
+.nossahistoria img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* FIM DA NOSSA HISTORIA */
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Epilogue';
+
+
+}
+
+.insta h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Epilogue';
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+h6{
+    color: rgb(9, 9, 9);
+    font-size: larger;
+}
+
+/* PARCEIROS */
+
+.parceiros {
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+}
+
+.instas {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%; 
+    text-align: center;
+    margin-top: -4%;
+    justify-content: center;
+}
+
+.instas h1 {
+    font-size: 3vw; 
+    font-weight: lighter;
+    text-align: center;
+}
+
+.parceiros img {
+    width: 30vw; 
+    max-width: 100%; 
+    height: auto;
+}
+
+
+/* FOOTER */
+footer h2{
+    font-family: 'Roboto';
+}
+
+footer h4{
+    font-family: 'Epilogue';
+    font-size: 14px;
+}
+
+footer a{
+    font-family: 'Epilogue';
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 0px;
+    width: 100%;
+    background-color: #1E2128;
+
+}
+
+/*form*/
+.conteudo {
+    width: 85%;
+    height: 75%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-gap: 20px; 
+}
+
+.conteudo h4 {
+    cursor: pointer;
+}
+
+.conteudo section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.receba {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px; 
+    align-items: flex-end; 
+}
+
+.receba h2 {
+    margin-bottom: 20px; 
+}
+
+.receba input {
+    font-family: 'Epilogue';
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgba(240, 255, 255, 0.432);
+    font-size: 1.5vw; 
+    width: 100%;
+    max-width: 250px; 
+    padding: 2vw; 
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+
+.ensira {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+}
+
+.receba h2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-right: 2vw; 
+}
+
+.ensira button {
+    color: white;
+    font-size: 1.5vw; 
+    border-radius: 4px;
+    background-color: #043f28;
+    border-style: none;
+    padding: 2vw; 
+    cursor: pointer;
+}
+
+.icones {
+    display: flex;
+    margin-bottom: 10px;
+    column-gap: 2vw; 
+    cursor: pointer;
+}
+
+/* CARRINHO */
+.car{
+    height: 30vh;
+    width: 30vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 40%;
+}
+.compraagr button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #065133;
+    cursor: pointer;
+    margin-left: 35%;
+}
+
+/* Formulario */
+#mensagemErro, #mensagemErro2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: red;
+    height: 18px;
+}
+#boasvindas{
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: green;
+    position: relative;
+    top: -37px;
+}
+/* Form cadastro */
+.form{
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.form input{
+    font-family: 'Epilogue';
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgba(18, 143, 72, 0.432);
+    font-size: 20px;
+    width: 350px;
+    height: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+}
+.form button{
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    background-color: #043f28;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 55px;
+    width: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+
+h2{
+    display: flex;
+    font-family:'Epilogue';
+    font-size: 15px;
+
+}/* Media Query para telas menores */
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        grid-column-gap: 0;
+        padding: 5px;
+    }
+    
+    header img {
+        margin: 10px auto;
+    }
+    
+    #user {
+        margin-left: 0;
+    }
+    
+    .carrinho img {
+        margin: 0;
+        margin-right: 0;
+    }
+    
+    nav {
+        margin-right: 0;
+        column-gap: 10%;
+    }
+    
+    .banner {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+    
+    .banner button {
+        width: 100%;
+    }
+    
+    .nossosprod section {
+        width: 100%;
+    }
+    
+    .produtos {
+        width: 100%;
+    }
+    
+    .nossahistoria h1,
+    .nossahistoria img,
+    .nossahistoria .historia p {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .instas {
+        gap: 50%;
+        margin-top: 0;
+    }
+    
+    .parceiros img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+/*perfil*/
+#gmail{
+    margin-left: 45%;
+}
+.form h2{
+    margin-left: 34%;
+}

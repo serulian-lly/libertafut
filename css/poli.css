@@ -1,0 +1,238 @@
+/* Epilogue */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Roboto:wght@500&display=swap');
+/* Epilogue */
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/* Roboto */
+
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Roboto:wght@500,700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 90%;
+    max-width: 1200px;
+    margin: 2% auto;
+}
+
+header img {
+    max-width: 200px;
+    margin: 0 auto; 
+}
+
+#user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #01b119;
+}
+
+nav {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.2rem;
+}
+
+nav a {
+    color: #171A1F;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: rgb(30, 140, 20);
+}
+
+/* FOOTER */
+footer h2{
+    font-family: 'Roboto';
+}
+
+footer h4{
+    font-family: 'Epilogue';
+    font-size: 14px;
+}
+
+footer a{
+    font-family: 'Epilogue';
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 0px;
+    width: 100%;
+    background-color: #1E2128;
+
+}
+
+/*form*/
+.conteudo {
+    width: 85%;
+    height: 75%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-gap: 20px; 
+}
+
+.conteudo h4 {
+    cursor: pointer;
+}
+
+.conteudo section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.receba {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px; 
+    align-items: flex-end; 
+}
+
+.receba h2 {
+    margin-bottom: 20px; 
+}
+
+.receba input {
+    font-family: 'Epilogue';
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgba(240, 255, 255, 0.432);
+    font-size: 1.5vw; 
+    width: 100%;
+    max-width: 250px; 
+    padding: 2vw; 
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+
+.ensira {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+}
+
+.receba h2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-right: 2vw; 
+}
+
+.ensira button {
+    color: white;
+    font-size: 1.5vw; 
+    border-radius: 4px;
+    background-color: #043f28;
+    border-style: none;
+    padding: 2vw; 
+    cursor: pointer;
+}
+
+.icones {
+    display: flex;
+    margin-bottom: 10px;
+    column-gap: 2vw; 
+    cursor: pointer;
+}
+
+/* POLITICA */
+
+.politica p{
+    width: 70%;
+    font-size: 15px;
+    margin-top: 7%;
+    margin-left: 15%;
+    text-align: justify;
+    font-family: 'Epilogue';
+    color: #031e14;
+}
+
+.politica h1{
+    font-weight: bolder;
+    font-size: 25px;
+   justify-content: center;
+    text-align: justify;
+    font-family: 'Epilogue';
+}
+
+
+/* Media Query para telas menores */
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #logoo {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+    .carrinho {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .carrinho img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .form {
+        margin-top: 20px;
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    .form input {
+        width: 100%;
+    }
+    
+    footer .conteudo {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .icones {
+        justify-content: center;
+    }
+    
+}
